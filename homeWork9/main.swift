@@ -25,6 +25,7 @@ import Foundation
 //float(float: 388.7, float1: 389)
 
 
+
 //Home Work 9_2 հայտարարել ֆունկցիա որը կհաշվի և կվերադրձնի 2 Int թվերի տարբերությունը։ հայտարարել ֆունկցիա որը կհաշվի և կվերադրձնի 2 Double թվերի տարբերությունը։ հայտարարել ֆունկցիա որը կհաշվի և կվերադրձնի 2 Float թվերի տարբերությունը։
 
 //func differenceOfInt(diff: Int , diff1: Int) {
@@ -87,9 +88,18 @@ import Foundation
 //    let sum = num * num
 //   return sum
 //}
-//var result = squareInt(num: 7)
-//var result1 = squareInt(num: 6)
-//print("result = \(result) , result1 = \(result1)")
+//var result = squareInt1(num: 7)
+//var result1 = squareInt1(num: 6)
+//print("result = \(result) | result1 = \(result1)")
+//
+//func squareInt1(num: Int) -> Int {
+//    return num * num
+//}
+//let resultOfSquare = squareInt(num: 5)
+//let resultOfSquare1 = squareInt(num: 4)
+//print("resultOfSquare = \(resultOfSquare) | resultOfSquare1 = \(resultOfSquare1)")
+
+
 
 //Home Work 9_6 հայտարարել ֆունկցիա որը որպես արգումենտ ունի [String] մասիվ և կվերադաձնի String որի տեքստային արժեքը կլինի այդ մասիվում գտնվող էլեմենտները ըստ մասիվում դասակարգված հաճորտականությամբ և կառանձնանան միմյանցից & սինվոլով։ օրինակ եթե ֆունկցիան ընդունի հետևյալ  [“Hello”, “GITC”, “IOS”] մասիվը որպես արգումենտ ապա պետք է վերադաձնի “Hello&GITC&IOS”
 
@@ -129,9 +139,14 @@ import Foundation
 //    return result
 //
 //}
-//let res = numberFactorial(numFact: 6)
-//let res1 = numberFactorial(numFact: 7)
-//print("res = \(res) , res1 = \(res1)")
+//let resNumFact = numberFactorial(numFact: 6)
+//let resNumFacts = numberFactorial(numFact: 7)
+//print("resNumFact = \(resNumFact) , resNumFacts = \(resNumFacts)")
+//
+//let number = 6
+//let resultNumberFactorials = numberFactorial(numFact: number)
+//print("resultNumberFactorials = \(resultNumberFactorials)")
+
 
 
 //Home Work 9_8 հայտարարել ֆունկցիա որը կնդունի ուղղանկյուն եռանկյան էջերի արժեքը և կվերադաձնի այդ ուղանկյուն եռանկայն ներքնաձիկը։ օգտագործել Պյութագորասի թեորեմի sqrt() և Ձեր գրած քառակուսի հանելու փունկցիան
@@ -139,9 +154,10 @@ import Foundation
 
 //func hypotenuse(c: Int, c1: Int) {
 //    let b = c + c1
+//    sqrt(Double(b))
 //    print(sqrt(Double(b)))
 //}
-//hypotenuse(c: squareInt(num: 5), c1: squareInt(num: 9))
+//hypotenuse(c: squareInt(num: 9), c1: squareInt(num: 9))
 
 
 
